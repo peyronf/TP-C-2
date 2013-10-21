@@ -13,4 +13,3 @@ void main()
         else
         printf("Cette annee n'est pas bissextile\n");
 }
-
