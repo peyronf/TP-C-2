@@ -7,7 +7,7 @@ void main()
     printf("\nSaisir b : ", &b);
     scanf("%f", &b);
     printf("\nSaisir c : ", &c);
-    scanf("%f", c);
+    scanf("%f", &c);
     delta=b*b-4*a*c;
     printf("Ainsi Delta = %f", delta);
     if (delta>0)
@@ -21,4 +21,6 @@ void main()
         x3=(-b)/(2*a);
         printf("La seule solution est : x = %f", x3);
     }
+    else if (delta<0)
+        printf("L'equation n'a pas de solution.");
 }
