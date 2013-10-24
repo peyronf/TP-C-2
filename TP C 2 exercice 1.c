@@ -15,12 +15,14 @@ void main()
         printf("Valeur incorrecte!\n");
 
     if (saisie>0)
-    i=0;
-        while (i<=100)
     {
-        chiffre=saisie*i;
-        printf("%dx%d=%d\n\n", saisie, i, chiffre);
-        i++;
+        i=0;
+        while (i<=100)
+        {
+            chiffre=saisie*i;
+            printf("%dx%d=%d\n\n", saisie, i, chiffre);
+            i++;
+        }
     }
     else
         printf("Valeur incorrect!\n");

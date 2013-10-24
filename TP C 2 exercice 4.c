@@ -9,7 +9,6 @@ void main()
     }while(annee<1512 || annee>3999);
     if (annee%4==0 && annee%100!=0 || annee%400==0)
         printf("Cette annee est bissextile\n");
-
-        else
+    else
         printf("Cette annee n'est pas bissextile\n");
 }

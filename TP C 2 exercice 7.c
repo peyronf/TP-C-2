@@ -3,13 +3,14 @@ void main()
 {
     float a, b, c, delta, x1, x2, x3;
     printf("Saisir a : ");
-    scanf("%f", &a);
+    scanf("%f", &a);//condition a différent de 0
     printf("\nSaisir b : ", &b);
     scanf("%f", &b);
     printf("\nSaisir c : ", &c);
     scanf("%f", &c);
     delta=b*b-4*a*c;
     printf("Ainsi Delta = %f", delta);
+    //vérifier quand a b c = 0 3 6; 0 0 6; 0 0 0
     if (delta>0)
     {
         x1=(-b-sqrt(delta))/(2*a);

@@ -2,7 +2,9 @@
 void main()
 {
     char chiffre;
-    printf("choisir un chiffre :");
+    do
+    {
+    printf("\nChoisir un chiffre :");
     scanf(" %c",&chiffre);
     switch(chiffre)
     {
@@ -37,4 +39,5 @@ void main()
         printf("NEUF");
         break;
     }
+    }while(chiffre!='#');
 }
